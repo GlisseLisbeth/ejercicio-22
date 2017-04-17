@@ -1,8 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
 body{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  margin: 0;
+}
+
+
+#bloque1,#bloque2,#bloque3{
+  padding: 10px 0px 60px 10px;
+}
+
+#bloque1,#bloque3{
+  background-color: #FFFF00;
+}
+
+#bloque2{
+  background-color: #ED2251;
+  border: 1px solid #710C27;
+}
+#bloque3{
+  text-transform: uppercase;
+}
+
+h1{
+  text-align: left;
+}
+
+#ejercicio2{
+  text-align: center;
+  text-align: -moz-center;
+  text-align: -ms-center;
+  text-align: -o-center;
+  text-align: -webkit-center;
+}
+
+#ejercicio5{
   margin: 10px;
 }
 
-#bloque1, #bloque2 ,#bloque3{
+#bloque1-5, #bloque2-5 ,#bloque3-5{
   border: 1px solid black;
   background-color: #CCCCCC;
   margin-left: 10px;
@@ -10,18 +47,19 @@ body{
   margin-top: 10px;
 }
 
-#bloque1, #bloque2{
+#bloque1-5, #bloque2-5{
   height: 100px;
   width: 100px;
 }
 
-#bloque3{
+#bloque3-5{
   width: 360px;
 }
-#bloque1, #bloque3{
+
+#bloque1-5, #bloque3-5{
   display: block;
 }
 
-#bloque2{
+#bloque2-5{
   display: inline-block;
 }
