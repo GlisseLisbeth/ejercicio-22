@@ -16,9 +16,9 @@ span{
 }
 
 #bloque1,#bloque2,#bloque3{
+  display: inline-block;
   margin: 20px 0px;
-  padding: 10px 0px 100px 10px;
-  width: 300px;
+  padding: 15px 25px 10px 10px;
 }
 
 #bloque1,#bloque3{
