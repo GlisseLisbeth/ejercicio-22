@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  margin: 0;
+}
+
+#bloque1,#bloque2,#bloque3{
+  padding: 10px 0px 60px 10px;
+}
+
+#bloque1,#bloque3{
+  background-color: #FFFF00;
+}
+
+#bloque2{
+  background-color: #ED2251;
+  border: 1px solid #710C27;
+}
+#bloque3{
+  text-transform: uppercase;
+}
